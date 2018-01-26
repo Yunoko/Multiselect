@@ -1,0 +1,13 @@
+.multiselect-box{position: relative;overflow: hidden;margin: 100px;}
+.multiselect-box .multiselect-left,.multiselect-box .multiselect-rigth{width: 300px;height: 400px;overflow: auto;border: 1px solid #ddd;float: left;margin-right: 30px;}
+.multiselect-box li{display: block;}
+.multiselect-box li input{vertical-align: middle;position: absolute;left: 10px;top: 10px;}
+.multiselect-box span{display: block;height: 30px;line-height: 30px;position: relative;}
+.multiselect-box .first-cate{text-indent: 50px;}
+.multiselect-box .second-cate{text-indent: 74px;}
+.multiselect-box .third-cate{text-indent: 100px;}
+.multiselect-box .icon-select-hander {display: inline-block;width: 26px;height: 26px;background-image: url(../images/icon-select-hander.png);background-size: 26px;position: absolute;left: 25px;top: 2px;}
+.multiselect-box .second-cate .icon-select-hander{left: 50px;}
+.multiselect-box span .icon-select-hander-more{background-image: url(../images/icon-select-hander-more.png);}
+.multiselect-box .second-list,.multiselect-box .third-list{display: none;}
+.multiselect-box .multiselect-add{float: left;margin-top: 180px;margin-right: 30px;width: 30px;height: 30px;display: block;color: #666;font-size: 16px;}

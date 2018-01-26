@@ -1,0 +1,10 @@
+.multiselect-box{position: relative;overflow: hidden;margin: 100px;}
+.multiselect-box .multiselect-left,.multiselect-box .multiselect-rigth{width: 300px;height: 400px;overflow: auto;border: 1px solid #ddd;float: left;margin-right: 30px;}
+.multiselect-box li{display: block;}
+.multiselect-box li input{vertical-align: middle;position: absolute;left: 10px;top: 10px;}
+.multiselect-box span{display: block;height: 30px;line-height: 30px;position: relative;}
+.multiselect-box .first-cate{text-indent: 50px;}
+.multiselect-box .second-cate{text-indent: 80px;}
+.multiselect-box .third-cate{text-indent: 110px;}
+.multiselect-box .icon-select-hander {display: inline-block;width: 32px;height: 32px;background-image: url(../images/icon-select-hander.png);}
+.second-list,.multiselect-box .thitd-list{display: none;}
