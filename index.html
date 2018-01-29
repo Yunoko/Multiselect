@@ -8,24 +8,20 @@
     </script>
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/multiselect.css">
-    <script src="data.js"></script>
-    <script src="jquery.js"></script>
-    <script src="js.js"></script>
+    <script src="lib/data.js"></script>
+    <script src="lib/jquery.js"></script>
 
 </head>
 <body>
     <div class="multiselect-box" id="multiselectWrap">
-        <div class="multiselect-left">
-            
-        </div>
+        <div class="multiselect-left"></div>
         <a class="multiselect-add" href="javascrpt:void">>></a>
-        <div class="multiselect-rigth">
-
-        </div>
+        <div class="multiselect-rigth"></div>
     </div>
-    <script src="multiselect.js"></script>
+    <script src="lib/MyMultiselect.js"></script>
+
     <script>
-    $('#multiselectWrap').Table()
+    MyMultiselect({mulData : data.list})
     </script>
 </body>
 </html>
